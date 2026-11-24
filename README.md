@@ -1,187 +1,279 @@
-# STY Erronka 2 · Planifikazioa eta Atazen Jarraipena
+# STY Erronka 2 · Egutegia eta Eguneroko Planifikazioa
 
 > **Proiektua:** STY (ServersToYou) – *Uni Center: Enpresa baten IT sistemen ezarpena*  
 > **Zentroa:** Uni Eibar-Ermua · SISA 2  
 > 
-> 💡 **Nola erabili txantiloi hau / Cómo usar esta plantilla:**
-> 1. Gehitu edo aldatu atazak atal bakoitzean (`[ ]` egiteke/egiten daudenentzat, `[x]` eginda daudenentzat).
-> 2. **Eginda** atalean jarri ataza bakoitzak zenbat iraun duen (`X ordu` / `X h`).
-> 3. Eguneratu modulu bakoitzeko eta laburpen-taulako ordu guztiak.
+> 💡 **Nola erabili egutegi hau:**
+> * Egun bakoitzean landutako **asignatura / modulua** jarri.
+> * Asignatura bakoitzaren barruan bete 3 atalak: **Sin hacer**, **Haciendo** eta **Hecho**.
+> * **Hecho** atalean edo egunaren amaieran jarri **zenbat denbora tardatu duzuen** (`X ordu` / `X h`).
+> * Behean daukazu plantilla huts bat nahi dituzun egun gehiago gehitzeko.
 
 ---
 
-## 📊 Denboraren eta Aurrerapenaren Laburpena
+## 📋 Eguneko Txantiloia (Kopiatu eta itsatsi egun berri bat gehitzeko)
 
-| Asignatura / Modulua | Egiteke | Egiten | Eginda | Denbora Guztira |
-| :--- | :---: | :---: | :---: | :---: |
-| **1. SEA** · Sistema Eragileen Administrazioa | 0 | 0 | 0 | **0 h** |
-| **2. SZERI** · Sareko Zerbitzuak eta Internet | 0 | 0 | 0 | **0 h** |
-| **3. SEG** · Segurtasuna eta Datu Babesa | 0 | 0 | 0 | **0 h** |
-| **4. DBKSA** · Datu Baseak Kudeatzeko Sistemak | 0 | 0 | 0 | **0 h** |
-| **5. WAE & IAW** · Web Aplikazioak eta Garapena | 0 | 0 | 0 | **0 h** |
-| **6. HW** · Hardwarearen Oinarriak | 0 | 0 | 0 | **0 h** |
-| **7. SB** · Sistema Banatuak eta HA Klusterra | 0 | 0 | 0 | **0 h** |
-| **8. PROG** · Sistemen Programazioa eta IoT | 0 | 0 | 0 | **0 h** |
-| **9. HACK** · Hacking Etikoa eta Auditoria | 0 | 0 | 0 | **0 h** |
-| **10. JASAN** · Jasangarritasuna | 0 | 0 | 0 | **0 h** |
-| **GUZTIRA** | **0** | **0** | **0** | **0 h** |
+```markdown
+### 🗓️ Eguna: [DATA, adib: 2026-11-25] · [Asteazkena]
+
+#### 📚 Asignatura: [Idatzi hemen modulua: SEA, SZERI, SEG, DBKSA, WAE/IAW, HW, SB, PROG, HACK edo JASAN]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
+
+---
+⏱️ **Eguneko denbora guztira:** `___ h`
+```
 
 ---
 
-## 1. Sistema Eragileen Administrazioa (SEA)
-
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
-
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
-
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
-
-> **SEA guztira tardatutakoa:** `0 h`
+# 📅 EGUTEGIA (Eguneroko Jarraipena)
 
 ---
 
-## 2. Sareko Zerbitzuak eta Internet (SZERI)
+## 📌 ASTEA 6: Azaroak 23 – 27 [UNEKO ASTEA]
 
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
+### 🗓️ Eguna: 2026-11-23 · Astelehena
 
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
+#### 📚 Asignatura: Sistema Eragileen Administrazioa (SEA)
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] OU hierarkia eta segurtasun-taldeak sortzea
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] Windows Server domeinua konfiguratzen
+* 🟢 **Hecho (Eginda):**
+  - [x] Windows Server 2022 instalazioa eta AD DS rola gehitzea
+  - ⏱️ **Tardatutako denbora:** `2 h`
 
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
+#### 📚 Asignatura: Sareko Zerbitzuak eta Internet (SZERI)
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] DHCP zerbitzua DMZ-ra zabaltzea
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] pfSense interfazeak konfiguratzen (WAN, LAN, DMZ)
+* 🟢 **Hecho (Eginda):**
+  - [x] pfSense oinarrizko instalazioa
+  - ⏱️ **Tardatutako denbora:** `1.5 h`
 
-> **SZERI guztira tardatutakoa:** `0 h`
+---
+⏱️ **Eguneko denbora guztira:** `3.5 h`
 
 ---
 
-## 3. Segurtasuna eta Datu Babesa (SEG)
+### 🗓️ Eguna: 2026-11-24 · Asteartea ⭐ [GAUR]
 
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
+#### 📚 Asignatura: Datu Baseak Kudeatzeko Sistemak (DBKSA)
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] Erabiltzaile eta rol espezifikoak sortzea (`GRANT`)
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] MariaDB `bind-address` LAN-era mugatzen
+* 🟢 **Hecho (Eginda):**
+  - [x] MariaDB zerbitzaria instalatzea Debian makinan
+  - ⏱️ **Tardatutako denbora:** `2 h`
 
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
+#### 📚 Asignatura: Web Aplikazioak (WAE & IAW)
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] Iruzkinen orria datu-basearekin konektatzea
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] Intraneteko `login.php` orria garatzen
+* 🟢 **Hecho (Eginda):**
+  - [x] HTML/CSS egitura korporatiboa prestatzea
+  - ⏱️ **Tardatutako denbora:** `1.5 h`
 
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
-
-> **SEG guztira tardatutakoa:** `0 h`
+---
+⏱️ **Eguneko denbora guztira:** `3.5 h`
 
 ---
 
-## 4. Datu Baseak Kudeatzeko Sistemak (DBKSA)
+### 🗓️ Eguna: 2026-11-25 · Asteazkena ⭐ (1. Talde Kontrol Puntua)
 
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
 
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
-
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
-
-> **DBKSA guztira tardatutakoa:** `0 h`
+---
+⏱️ **Eguneko denbora guztira:** `___ h`
 
 ---
 
-## 5. Web Aplikazioak eta Garapena (WAE & IAW)
+### 🗓️ Eguna: 2026-11-26 · Osteguna
 
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
 
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
-
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
-
-> **WAE & IAW guztira tardatutakoa:** `0 h`
+---
+⏱️ **Eguneko denbora guztira:** `___ h`
 
 ---
 
-## 6. Hardwarearen Oinarriak (HW)
+### 🗓️ Eguna: 2026-11-27 · Ostirala
 
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
 
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
-
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
-
-> **HW guztira tardatutakoa:** `0 h`
+---
+⏱️ **Eguneko denbora guztira:** `___ h`
 
 ---
 
-## 7. Sistema Banatuak eta HA Klusterra (SB)
+## 📌 ASTEA 7: Azaroak 30 – Abenduak 04
 
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
+*(Azaroak 30: Jai eguna)*
 
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
-
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
-
-> **SB guztira tardatutakoa:** `0 h`
-
----
-
-## 8. Sistemen Programazioa eta IoT (PROG)
-
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
-
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
-
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
-
-> **PROG guztira tardatutakoa:** `0 h`
+### 🗓️ Eguna: 2026-12-01 · Asteartea
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
 
 ---
 
-## 9. Hacking Etikoa eta Auditoria (HACK)
-
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
-
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
-
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
-
-> **HACK guztira tardatutakoa:** `0 h`
+### 🗓️ Eguna: 2026-12-02 · Asteazkena ⭐ (2. Talde Kontrol Puntua)
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
 
 ---
 
-## 10. Jasangarritasuna eta Ekonomia Zirkularra (JASAN)
+### 🗓️ Eguna: 2026-12-03 · Osteguna
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
 
-### 🔴 Sin hacer (Egiteke)
-* [ ] *(Idatzi hemen egiteke dagoen ataza)*
-* [ ] *(Idatzi hemen beste ataza bat)*
+---
 
-### 🟡 Haciendo (Egiten ari gara)
-* [ ] *(Idatzi hemen orain egiten ari zareten ataza)*
+### 🗓️ Eguna: 2026-12-04 · Ostirala
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
 
-### 🟢 Hecho (Eginda)
-* [x] *(Idatzi hemen amaitutako ataza)* — ⏱️ **Tardatutako denbora:** `0 h`
+---
 
-> **JASAN guztira tardatutakoa:** `0 h`
+## 📌 ASTEA 8: Abenduak 07 – 11
+
+*(Abenduak 07 eta 08: Jai egunak)*
+
+### 🗓️ Eguna: 2026-12-09 · Asteazkena ⭐ (3. Talde Kontrol Puntua)
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
+
+---
+
+### 🗓️ Eguna: 2026-12-10 · Osteguna
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
+
+---
+
+### 🗓️ Eguna: 2026-12-11 · Ostirala
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
+
+---
+
+## 📌 ASTEA 9: Abenduak 14 – 18 (Itxiera eta Azterketak)
+
+### 🗓️ Eguna: 2026-12-14 · Astelehena
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
+
+---
+
+### 🗓️ Eguna: 2026-12-15 · Asteartea
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
+
+---
+
+### 🗓️ Eguna: 2026-12-16 · Asteazkena ⭐ (Azken Proposamenak / Ebaluazioa)
+#### 📚 Asignatura: [Idatzi hemen modulua]
+* 🔴 **Sin hacer (Egiteke):**
+  - [ ] 
+* 🟡 **Haciendo (Egiten ari gara):**
+  - [ ] 
+* 🟢 **Hecho (Eginda):**
+  - [x] 
+  - ⏱️ **Tardatutako denbora:** `___ h`
+
+---
+
+### 🗓️ Eguna: 2026-12-17 eta 2026-12-18 · Osteguna eta Ostirala (Azterketak)
+* Banakako proba teknikoak (Azterketak)
+
+---
+
+## 📌 ASTEA 10: Abenduak 21 – 22 (Azken Aurkezpena)
+
+### 🗓️ Eguna: 2026-12-21 · Astelehena
+* Erronka 2ren azken aurkezpen ofiziala irakasleen aurrean eta koebaluazioa.
+
+### 🗓️ Eguna: 2026-12-22 · Asteartea
+* Erronkaren itxiera orokorra eta notak.
