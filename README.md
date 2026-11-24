@@ -1,4 +1,4 @@
-# STY Erronka 2 · Egutegia eta Eguneroko Planifikazioa
+[# STY Erronka 2 · Egutegia eta Eguneroko Planifikazioa
 
 > **Proiektua:** STY (ServersToYou) – *Uni Center: Enpresa baten IT sistemen ezarpena*  
 > **Zentroa:** Uni Eibar-Ermua · SISA 2  
@@ -277,3 +277,4 @@
 
 ### 🗓️ Eguna: 2026-12-22 · Asteartea
 * Erronkaren itxiera orokorra eta notak.
+](https://github.com/basterretxeahodei/STY_erronka2_Planifikazioa.git)
